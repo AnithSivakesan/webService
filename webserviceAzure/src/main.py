@@ -7,7 +7,7 @@ Created on 11 Jul 2018
 from flask.app import Flask
 app=Flask(__name__)
 
-@app.route('/')
+@app.route('/hello')
 def helloWorld():
     return "hello world"
 
